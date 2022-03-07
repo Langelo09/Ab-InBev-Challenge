@@ -1,7 +1,5 @@
 <template>
   <v-app>
-    
-    <Loader v-if="loader" />
 
     <Navbar />
 
@@ -18,7 +16,6 @@
 import FxRatesGraph from './components/FxRatesGraph'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Loader from './components/Loader'
 
 export default {
   name: 'App',
@@ -26,11 +23,7 @@ export default {
   components: {
     FxRatesGraph,
     Navbar,
-    Footer,
-    Loader
-  },
-  data: () => ({
-    loader: false,
-  }),
+    Footer
+  }
 };
 </script>
