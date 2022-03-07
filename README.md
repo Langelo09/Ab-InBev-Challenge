@@ -1,4 +1,4 @@
-# Fx Rate Currencies App - Ab-InBev Challenge
+# Fx Rate Currencies App - Challenge
 
 ## Interface that displays a summary of the fx rates of the Euro against other currencies.
 
